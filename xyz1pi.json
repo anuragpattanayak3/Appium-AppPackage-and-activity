@@ -1,0 +1,426 @@
+{
+    "argodata": {
+        "argoid": "5b02a077cad49b4d19ce6f17_bot_0",
+        "botindex": 0,
+        "desiredCapabilitiesAppium": {
+            "platformName": "android",
+            "platformVersion": "9",
+            "uid": "3100528da24fc300",
+            "appPackage": "com.AmexApp",
+            "appActivity": "com.AmexApp.AmexApp",
+            "useNewWDA": true,
+            "automationName": "UiAutomator2",
+            "autoGrantPermissions": true,
+            "noReset": true,
+            "deviceName": "Andorid1"
+        },
+        "driver": {
+            "host": "127.0.0.1",
+            "port": 4723
+        }
+    },
+    "Sheet1": [
+        {
+            "stepno": "1",
+            "stepdescription": "Verify if the login page is dispalyed in mobile application",
+            "expected": "Login page should be displayed in mobile application",
+            "screenname": "Login",
+            "fieldname": "text_LOGIN",
+            "keyword": "verify",
+            "forder": 0,
+            "screenid": "5d01ffbe8279df79d6fd4f4b",
+            "stepid": "e6RlfdpEWW",
+            "fieldid": "5d01ffbe8279df79d6fd4f51",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "Forgot Password? Forgot Password?"
+                    ]
+                }
+            },
+            "testdata": "Forgot Password? Forgot Password?",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "VKTcomu84MBJudN",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "text",
+            "xpath": "//android.view.View[@text='Forgot Password? Forgot Password']"
+        },
+        {
+            "stepno": "3",
+            "stepdescription": "Input valid password",
+            "expected": "Valid Password should be accepted",
+            "screenname": "Login",
+            "fieldname": "tb_Password",
+            "keyword": "input",
+            "forder": 2,
+            "screenid": "5d01ffbe8279df79d6fd4f4b",
+            "stepid": "4mqBl9uMaH",
+            "fieldid": "5d01ffbe8279df79d6fd4f4f",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "Amex1234"
+                    ]
+                }
+            },
+            "testdata": "Amex1234",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "OyM4IckiDYI0L7A",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "textbox",
+            "css": "fldloginUserPassword",
+            "selector": "fldloginUserPassword"
+        },
+        {
+            "stepno": "4",
+            "stepdescription": "Click on 'Login' button",
+            "expected": "Login button should be clicked",
+            "screenname": "Login",
+            "fieldname": "bt_LOGIN",
+            "keyword": "input",
+            "forder": 3,
+            "screenid": "5d01ffbe8279df79d6fd4f4b",
+            "stepid": "5Mqu0QplEk",
+            "fieldid": "5d01ffbe8279df79d6fd4f50",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "x"
+                    ]
+                }
+            },
+            "testdata": "x",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "QVgwfx0tHwH35ER",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "logindone",
+            "selector": "logindone"
+        },
+        {
+            "stepno": "5",
+            "stepdescription": "Navigate to My cards tab",
+            "expected": "My accounts tab should be navigated",
+            "screenname": "GENERAL",
+            "fieldname": "bt_MY cards",
+            "keyword": "input",
+            "forder": 0,
+            "screenid": "5d01ffbe8279df79d6fd4f4c",
+            "stepid": "WnQQicrqrW",
+            "fieldid": "5d01ffbe8279df79d6fd4f55",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "x"
+                    ]
+                }
+            },
+            "testdata": "x",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "2wdQtPjrLr7DCdi",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "cardsMask",
+            "selector": "cardsMask"
+        },
+        {
+            "stepno": "6",
+            "stepdescription": "Verify if the Card product details are displayed",
+            "expected": "Card product details should be displayed",
+            "screenname": "AMERICAN EXPRESS",
+            "fieldname": "txt_CARD PRODUCT",
+            "keyword": "verify",
+            "forder": 0,
+            "screenid": "5d01ffbe8279df79d6fd4f4d",
+            "stepid": "iEtFNuTYZf",
+            "fieldid": "5d01ffbe8279df79d6fd4f53",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000"
+                    ]
+                }
+            },
+            "testdata": "THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "EnaiVZYQritpeG3",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "text",
+            "css": "//android.view.View[@text='THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000']",
+            "selector": "//android.view.View[@text='THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000']"
+        },
+        {
+            "stepno": "7",
+            "stepdescription": "Click on Card product screen",
+            "expected": "Card product screen should be clicked",
+            "screenname": "AMERICAN EXPRESS",
+            "fieldname": "bt_CARD PRODUCT",
+            "keyword": "input",
+            "forder": 1,
+            "screenid": "5d01ffbe8279df79d6fd4f4d",
+            "stepid": "ffAOCuaxhf",
+            "fieldid": "5d01ffbe8279df79d6fd4f54",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "x"
+                    ]
+                }
+            },
+            "testdata": "x",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "Z3a4SlaAELdzsSW",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "//android.view.View[@text='THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000']",
+            "selector": "//android.view.View[@text='THE AMERICAN EXPRESS®GOLD CREDIT CARD Last Statement Balance BHD 0.000']"
+        },
+        {
+            "stepno": "8",
+            "stepdescription": "Verify if the Card summary page is displayed",
+            "expected": "Card summary page should be displayed",
+            "screenname": "CARD SUMMARY",
+            "fieldname": "txt_CARD SUMMARY",
+            "keyword": "verify",
+            "forder": 0,
+            "screenid": "5d01ffbe8279df79d6fd4f52",
+            "stepid": "Aat9nVxdLL",
+            "fieldid": "5d01ffbe8279df79d6fd4f57",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "ACCOUNT STATUS"
+                    ]
+                }
+            },
+            "testdata": "ACCOUNT STATUS",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "gmBgVnX335wgrrT",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "text",
+            "css": "//android.view.View[@text='Card Summary']",
+            "selector": "//android.view.View[@text='Card Summary']"
+        },
+        {
+            "stepno": "9",
+            "stepdescription": "Click on search button in Card summary page",
+            "expected": "Transaction search page should be displayed",
+            "screenname": "CARD SUMMARY",
+            "fieldname": "bt_SEARCH",
+            "keyword": "input",
+            "forder": 1,
+            "screenid": "5d01ffbe8279df79d6fd4f52",
+            "stepid": "zZwp0i4kH3",
+            "fieldid": "5d01ffbf8279df79d6fd4f58",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "X"
+                    ]
+                }
+            },
+            "testdata": "X",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "TPX83uR5lCbq25b",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "logindone",
+            "selector": "logindone"
+        },
+        {
+            "stepno": "10",
+            "stepdescription": "Verify if the newly created card is displayed under transactions search page",
+            "expected": "Newly created card should be displayed under transactions search page",
+            "screenname": "TRANSACTIONS SEARCH",
+            "fieldname": "txt_CARD DETAILS_MOB",
+            "keyword": "verify",
+            "forder": 0,
+            "screenid": "5d01ffbe8279df79d6fd4f56",
+            "stepid": "tjBzvGJolo",
+            "fieldid": "5d01ffbf8279df79d6fd4f5b",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "3791-XXXXXX-X3103"
+                    ]
+                }
+            },
+            "testdata": "3791-XXXXXX-X3103",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "dkPIr1lBgvZNZhk",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "text",
+            "css": "//android.view.View[@index='3']",
+            "selector": "//android.view.View[@index='3']"
+        },
+        {
+            "stepno": "11",
+            "stepdescription": "navigate back to card summary page",
+            "expected": "Card summary page should be displayed",
+            "screenname": "TRANSACTIONS SEARCH",
+            "fieldname": "bt_back",
+            "keyword": "input",
+            "forder": 1,
+            "screenid": "5d01ffbe8279df79d6fd4f56",
+            "stepid": "v1GFJIPsny",
+            "fieldid": "5d01ffbf8279df79d6fd4f5c",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        null
+                    ]
+                }
+            },
+            "testdata": "",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "dCxVoVUyg2bmcXx",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "btnBack",
+            "selector": "btnBack"
+        },
+        {
+            "stepno": "12",
+            "stepdescription": "Navigate to statement tab",
+            "expected": "Statement tab should be navigated",
+            "screenname": "STATEMENT",
+            "fieldname": "bt_STATEMENT",
+            "keyword": "input",
+            "forder": 0,
+            "screenid": "5d01ffbf8279df79d6fd4f5a",
+            "stepid": "txI3HiTpsJ",
+            "fieldid": "5d01ffbf8279df79d6fd4f60",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "x"
+                    ]
+                }
+            },
+            "testdata": "x",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "IhBY5N2c0z3eGv2",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "//android.view.View[@text='Statements Statements']",
+            "selector": "//android.view.View[@text='Statements Statements']"
+        },
+        {
+            "stepno": "13",
+            "stepdescription": "Click on search button in statements tab",
+            "expected": "Search button should be clicked in statements tab",
+            "screenname": "STATEMENT",
+            "fieldname": "bt_SEARCH",
+            "keyword": "input",
+            "forder": 1,
+            "screenid": "5d01ffbf8279df79d6fd4f5a",
+            "stepid": "IlAbvC1cab",
+            "fieldid": "5d01ffbf8279df79d6fd4f61",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "X"
+                    ]
+                }
+            },
+            "testdata": "X",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "HlL79V2ty1IfRQG",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "button",
+            "css": "logindone",
+            "selector": "logindone"
+        },
+        {
+            "stepno": "14",
+            "stepdescription": "Verify if the transaction details are displayed in statement screen",
+            "expected": "Transaction details should be displayed in Statement screen",
+            "screenname": "STATEMENT",
+            "fieldname": "txt_TRANSACTION DETAILS",
+            "keyword": "verify",
+            "forder": 2,
+            "screenid": "5d01ffbf8279df79d6fd4f5a",
+            "stepid": "ntvAljahlh",
+            "fieldid": "5d01ffbf8279df79d6fd4f62",
+            "errflag": false,
+            "step_data": {
+                "0": {
+                    "5d02002c8279df79d6fd4f69": [
+                        "Statements"
+                    ]
+                }
+            },
+            "testdata": "Statements",
+            "name": "CC 01.05.01_TS_01_TC_01",
+            "dataset": 0,
+            "datarpt": 0,
+            "argoid": "d8WCJNvRgIE71qc",
+            "designid": "5d02002c8279df79d6fd4f69",
+            "rundesignid": "5d0223f619c4fe7ee32db6a1",
+            "tcid": "5d02002c8279df79d6fd4f69",
+            "type": "text",
+            "css": "//android.view.View[@text='No statement has been generated for the selected Card as yet']",
+            "selector": "//android.view.View[@text='No statement has been generated for the selected Card as yet']"
+        }
+    ]
+}
